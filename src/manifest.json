@@ -24,7 +24,7 @@
     "background": {
         "scripts": ["javascript/background.js"],
         "persistent": false    
-    },			//Needs fixing for Firefox
+    },
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
