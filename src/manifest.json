@@ -15,9 +15,15 @@
         "default_icon": "icons/Ext-Icon-Configured-16x16.png",
         "default_popup": "html/account-overview.html"
     },
+    "applications": {
+  	"gecko": {
+    		"id": "hhhext@ric.hh",
+   		 "strict_min_version": "60.0"
+ 	 }
+	},
     "background": {
         "scripts": ["javascript/background.js"],
-        "persistent": false
+        "persistent": false     # Needs fixing for Firefox
     },
     "content_scripts": [
         {
